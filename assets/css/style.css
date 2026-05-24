@@ -49,8 +49,8 @@ nav {
 }
 .nav-inner {
   max-width: var(--max-width); margin: 0 auto;
-  display: flex; align-items: flex-start;
-  height: 68px; padding: 0.6rem 2rem;
+  display: flex; align-items: center; justify-content: flex-start;
+  height: 68px; padding: 0 2rem;
 }
 .nav-logo {
   font-family: var(--font-display);
