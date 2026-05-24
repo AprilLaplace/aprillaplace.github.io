@@ -50,7 +50,7 @@ nav {
 .nav-inner {
   max-width: var(--max-width); margin: 0 auto;
   display: flex; align-items: center; justify-content: flex-start;
-  height: 68px; padding: 0 2rem;
+  height: 68px; padding: 0 1.25rem 0 2rem;
 }
 .nav-logo {
   font-family: var(--font-display);
@@ -63,9 +63,10 @@ nav {
   font-size: 0.82rem;
   font-family: var(--font-body);
 }
-.nav-links { display: flex; gap: 1.5rem; list-style: none; margin-left: auto; }
+.nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; margin-right: 0; }
+.nav-links li { flex-shrink: 0; }
 .nav-links a {
-  color: var(--text-secondary); font-size: 0.82rem; line-height: 1.2;
+  color: var(--text-secondary); font-size: 0.9rem; line-height: 1.2;
   text-align: center;
   padding-bottom: 2px;
   border-bottom: 1px solid transparent;
@@ -73,7 +74,7 @@ nav {
 }
 .nav-links a .en {
   display: block;
-  font-size: 0.6rem; font-weight: 400;
+  font-size: 0.68rem; font-weight: 400;
   color: var(--text-muted);
   text-transform: none; letter-spacing: 0;
 }
