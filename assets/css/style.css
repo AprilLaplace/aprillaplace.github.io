@@ -65,8 +65,9 @@ nav {
   font-family: var(--font-body);
 }
 .nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; margin-right: 1.5rem; }
-.nav-links li { flex-shrink: 0; }
+.nav-links li { flex-shrink: 0; width: 6.5rem; }
 .nav-links a {
+  display: block; width: 100%;
   color: var(--text-secondary); font-size: 0.95rem; line-height: 1.25;
   text-align: center;
   border-bottom: 1px solid transparent;
@@ -77,6 +78,7 @@ nav {
   font-size: 0.7rem; font-weight: 400;
   color: var(--text-muted);
   text-transform: none; letter-spacing: 0;
+  white-space: nowrap;
 }
 .nav-links a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 .nav-links a:hover .en { color: var(--accent); }
