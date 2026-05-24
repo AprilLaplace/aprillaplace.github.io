@@ -49,8 +49,8 @@ nav {
 }
 .nav-inner {
   max-width: var(--max-width); margin: 0 auto;
-  display: flex; align-items: center; justify-content: space-between;
-  height: 68px; padding: 0 2rem;
+  display: flex; align-items: flex-start;
+  height: 68px; padding: 0.6rem 2rem;
 }
 .nav-logo {
   font-family: var(--font-display);
@@ -63,7 +63,7 @@ nav {
   font-size: 0.78rem;
   font-family: var(--font-body);
 }
-.nav-links { display: flex; gap: 2.5rem; list-style: none; }
+.nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; }
 .nav-links a {
   color: var(--text-secondary); font-size: 0.9rem;
   padding-bottom: 2px;
