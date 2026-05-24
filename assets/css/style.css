@@ -50,7 +50,8 @@ nav {
 .nav-inner {
   max-width: var(--max-width); margin: 0 auto;
   display: flex; align-items: center; justify-content: flex-start;
-  height: 68px; padding: 0 1.25rem 0 2rem;
+  height: 68px; padding: 0 1.5rem;
+  gap: 3rem;
 }
 .nav-logo {
   font-family: var(--font-display);
@@ -63,18 +64,17 @@ nav {
   font-size: 0.82rem;
   font-family: var(--font-body);
 }
-.nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; margin-right: 0; }
+.nav-links { display: flex; gap: 2rem; list-style: none; margin-left: auto; margin-right: 1.5rem; }
 .nav-links li { flex-shrink: 0; }
 .nav-links a {
-  color: var(--text-secondary); font-size: 0.9rem; line-height: 1.2;
+  color: var(--text-secondary); font-size: 0.95rem; line-height: 1.25;
   text-align: center;
-  padding-bottom: 2px;
   border-bottom: 1px solid transparent;
   transition: border-color 0.25s, color 0.25s;
 }
 .nav-links a .en {
   display: block;
-  font-size: 0.68rem; font-weight: 400;
+  font-size: 0.7rem; font-weight: 400;
   color: var(--text-muted);
   text-transform: none; letter-spacing: 0;
 }
@@ -362,8 +362,8 @@ footer {
 @media (max-width: 900px) {
   .nav-inner { height: auto; padding: 0.75rem 1.5rem; flex-wrap: wrap; gap: 0.5rem; }
   .nav-links { width: 100%; justify-content: center; gap: 0.8rem; flex-wrap: wrap; margin-left: 0; }
-  .nav-links a { font-size: 0.72rem; }
-  .nav-links a .en { font-size: 0.55rem; }
+  .nav-links a { font-size: 0.78rem; }
+  .nav-links a .en { font-size: 0.6rem; }
   .nav-logo { font-size: 1.2rem; }
   .nav-logo .en { font-size: 0.72rem; }
   .hero { grid-template-columns: 1fr; gap: 3rem; padding: 4rem 2rem 3rem; }
